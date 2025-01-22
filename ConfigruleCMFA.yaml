@@ -46,7 +46,7 @@ proxies:
       headers:
         Host: ikada.aixxycode.id
     udp: true
-      - name: AKUN2
+  - name: AKUN2
     server: 104.22.5.240
     port: 443
     type: trojan
