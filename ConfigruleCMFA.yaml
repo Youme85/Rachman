@@ -46,30 +46,28 @@ proxies:
         Host: ikada.aixxycode.id
     udp: true
   - name: AKUN2
-    server: 172.67.5.14
+    server: img.email3.vidio.com
     port: 443
     type: trojan
-    password: sGWbw5q2nBtPeZ4ziM8J_Q
+    password: f5c90347-38f3-4374-a46d-ee65eb252869
     skip-cert-verify: true
-    sni: ikada.aixxycode.id
+    sni: sg4.servercepat.net
     network: ws
     ws-opts:
-      path: /trojan
+      path: /trojan-ws
       headers:
-        Host: ikada.aixxycode.id
+        Host: sg4.servercepat.net
     udp: true
   - name: AKUN3
-    server: 104.16.17.120
+    server: sg4.servercepat.net
     port: 443
     type: trojan
-    password: sGWbw5q2nBtPeZ4ziM8J_Q
+    password: f5c90347-38f3-4374-a46d-ee65eb252869
     skip-cert-verify: true
-    sni: ikada.aixxycode.id
-    network: ws
-    ws-opts:
-      path: /trojan
-      headers:
-        Host: ikada.aixxycode.id
+    sni: static-web.prod.vidiocdn.com
+    network: grpc
+    grpc-opts:
+      grpc-service-name: trojan-grpc
     udp: true
 
 proxy-groups:
