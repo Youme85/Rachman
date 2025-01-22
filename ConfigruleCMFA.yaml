@@ -32,7 +32,6 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-proxies:
   - name: AKUN1
     server: 172.67.5.14
     port: 443
@@ -47,7 +46,7 @@ proxies:
         Host: ikada.aixxycode.id
     udp: true
   - name: AKUN2
-    server: 104.22.5.240
+    server: 172.67.5.14
     port: 443
     type: trojan
     password: sGWbw5q2nBtPeZ4ziM8J_Q
@@ -58,7 +57,7 @@ proxies:
       path: /trojan
       headers:
         Host: ikada.aixxycode.id
-    udp: tru
+    udp: true
   - name: AKUN3
     server: 104.16.17.120
     port: 443
