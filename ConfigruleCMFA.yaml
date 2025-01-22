@@ -49,7 +49,7 @@ proxies:
       Host: sg-ctb.aixxycode.id
   udp: true
 - name: AKUN2
-  server: quiz.staging.vidio.com
+  server: 162.159.128.7
   port: 443
   type: vmess
   uuid: 0eecaee8-98fd-473f-be72-5b1661718aa2
