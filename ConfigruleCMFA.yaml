@@ -36,50 +36,41 @@ proxies:
 - name: AKUN1
   server: 104.22.5.240
   port: 443
-  type: vmess
-  uuid: 0eecaee8-98fd-473f-be72-5b1661718aa2
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: Rachman85
   skip-cert-verify: true
-  servername: sg-ctb.aixxycode.id
+  sni: id-biznet001.beritanect.click
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan-go
     headers:
-      Host: sg-ctb.aixxycode.id
+      Host: id-biznet001.beritanect.click
   udp: true
 - name: AKUN2
   server: 104.22.4.240
   port: 443
-  type: vmess
-  uuid: 0eecaee8-98fd-473f-be72-5b1661718aa2
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: Rachman85
   skip-cert-verify: true
-  servername: sg-ctb.aixxycode.id
+  sni: id-biznet001.beritanect.click
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan-go
     headers:
-      Host: sg-ctb.aixxycode.id
+      Host: id-biznet001.beritanect.click
   udp: true
 - name: AKUN3
   server: 172.67.5.14
   port: 443
-  type: vmess
-  uuid: 0eecaee8-98fd-473f-be72-5b1661718aa2
-  alterId: 0
-  cipher: auto
-  tls: true
+  type: trojan
+  password: Rachman85
   skip-cert-verify: true
-  servername: sg-ctb.aixxycode.id
+  sni: id-biznet001.beritanect.click
   network: ws
   ws-opts:
-    path: /vmess
+    path: /trojan-go
     headers:
-      Host: sg-ctb.aixxycode.id
+      Host: id-biznet001.beritanect.click
   udp: true
   
 proxy-groups:
