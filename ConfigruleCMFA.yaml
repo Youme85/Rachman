@@ -32,7 +32,6 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  proxies:
 - name: AKUN1
   server: 104.22.5.240
   port: 443
